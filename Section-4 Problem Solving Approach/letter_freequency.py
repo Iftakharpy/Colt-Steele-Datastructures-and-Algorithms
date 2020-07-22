@@ -7,14 +7,15 @@ def is_alpha_numeric(character):
 
 
 def character_count(sentence):
-    character_counts = {} #dict to keep track of character numbers
+    character_counts = {} # dict to keep track of character numbers
     
     for character in sentence:
-        #converting the character to lower case
+        # converting the character to lower case
         character = character.lower()
         
-        #checking if the character is valid for us.
+        # checking if the character is valid for us.
         if is_alpha_numeric(character): 
+            # if character exists in the dict or object then increment else initiate 1
             if character_counts.get(character):
                 character_counts[character] += 1
             else:

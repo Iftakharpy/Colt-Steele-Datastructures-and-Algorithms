@@ -17,8 +17,6 @@
 >3. Solve
 >4. Check
 
-# Check this file [Click](test/he.md)
-
 &nbsp;
 
 &nbsp;
