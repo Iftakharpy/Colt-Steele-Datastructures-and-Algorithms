@@ -1,7 +1,8 @@
 """
 # Problem Pattern: Freequency Counter
-Problem Statement
 
+Problem Statement
+-----------------
 Write a function called Same, which acepts two arrays.
 And returns if every value in the first array has it's corresponding value squared in the second array.
 The frequency of values must be the same.

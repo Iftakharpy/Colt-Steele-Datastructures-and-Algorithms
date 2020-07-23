@@ -1,7 +1,8 @@
 """
 # Problem Pattern: Freequency Counter
-Problem Statement
 
+Problem Statement
+-----------------
 Given two strings, write a function to determine if the second string is an anagram of the first string.
 An anagram is a word, pharase, or name formed by rearranging the letters of another, such as cinema, formed from iceman.
 
