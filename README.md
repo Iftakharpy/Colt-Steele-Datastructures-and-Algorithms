@@ -1,7 +1,7 @@
 # [JavaScript Algorithms and Data Structures Masterclass - Colt Steele's courses resources and solutions](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/)
 
 
->### For many exercises I could not find the question so I saved the provided solutions in .js file.
+>### For many exercises I could not find the question so I saved the provided solutions in "SQX\_\*.js" file.
 >### These files are prefixed with "SQX_"(Solutions without questions exercise)
 
 &nbsp;
