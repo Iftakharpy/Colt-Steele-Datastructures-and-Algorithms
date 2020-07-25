@@ -11,7 +11,7 @@ Example{
 6. product([]) // None
 */
 
-
+//O(n)
 function product(numbers){
     if (numbers.length==1){
         return numbers[0];

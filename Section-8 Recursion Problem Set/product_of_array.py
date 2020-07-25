@@ -11,7 +11,7 @@ Example:
 6. product([]) # None
 """
 
-
+#O(n)
 def product(numbers):
     if len(numbers)==1:
         return numbers[0]

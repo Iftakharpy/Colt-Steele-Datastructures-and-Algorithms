@@ -11,7 +11,7 @@ Example:
 6. sum_range(-4) # -10
 """
 
-
+#O(n)
 def sum_range(number):
     if number==0:
         return 0

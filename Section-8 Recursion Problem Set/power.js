@@ -11,6 +11,7 @@ Example:
 */
 
 
+//O(n);  n = abs(pow)
 function power(number,power) {
     if (power==0){
         return 1;

@@ -1,3 +1,4 @@
+#O(1)
 def is_alpha_numeric(character):
     if 48 <= ord(character) <= 57: #if character is [0-9]
         return True
@@ -5,7 +6,7 @@ def is_alpha_numeric(character):
         return True
     return False
 
-
+#O(n)
 def character_count(sentence):
     character_counts = {} # dict to keep track of character numbers
     

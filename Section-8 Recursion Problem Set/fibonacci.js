@@ -13,6 +13,9 @@ Example:
 7. fibonacci(5) # 8
 */
 
+// I don't know the time complexity of these functions
+
+
 //without memoization
 function fibonacci(number) {
     if (number<=-1) {

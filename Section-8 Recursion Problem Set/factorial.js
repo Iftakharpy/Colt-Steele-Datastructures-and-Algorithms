@@ -13,6 +13,7 @@ Example:
 7. factorial(-100) #None
 */
 
+//O(n)
 function factorial(number){
     if (number<=-1){
         return NaN;

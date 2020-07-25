@@ -13,7 +13,7 @@ Example:
 7. factorial(-100) #None
 """
 
-
+#O(n)
 def factorial(number):
     if number>=0 and number<=1:
         return 1

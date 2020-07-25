@@ -12,6 +12,8 @@ Example:
 6. fibonacci(4) # 5
 7. fibonacci(5) # 8
 """
+# I don't know the time complexity of these functions
+
 
 # recursion without memoization
 def fibonacci(number):

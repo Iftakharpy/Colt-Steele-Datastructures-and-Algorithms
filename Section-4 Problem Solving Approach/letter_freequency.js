@@ -8,7 +8,7 @@ function is_alpha_numeric(character){
     }
 }
 
-
+// O(n)
 function character_count(sentence){
     character_counts = {};  // dict or object to keep track of character numbers
     
