@@ -90,3 +90,7 @@ ___
 
 ### [Charts credit](https://www.bigocheatsheet.com/)
 ### [Markdown documentation reference](https://www.markdownguide.org/extended-syntax/)
+
+## Todos
+1. KNP string search
+2. More recursion porblem solving
