@@ -92,7 +92,8 @@ ___
 ## 2. Selection Sort
     Seletion sort is similar to bubble sort. Here we look for smallest number in the array. We swap the values of smallest number index and the first index.
 
-    Note: After each swap we increment our smallest index by 1. Otherwise it will ony bring the smallest number to at index 0 everytime. and won't sort the array.
+    Note: After each swap we increment our smallest index by 1.
+    Otherwise it will ony bring the smallest number to at index 0 everytime and won't sort the array.
 
 ___
 
