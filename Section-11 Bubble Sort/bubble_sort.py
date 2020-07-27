@@ -19,6 +19,7 @@ def optimized_bubble_sort(array):
                 #swap
                 array[j],array[j+1] = array[j+1],array[j]
                 not_swaped = False
+        # if we didn't swapped any numbers that means the array is sorted now.
         if not_swaped:
             break
     return array

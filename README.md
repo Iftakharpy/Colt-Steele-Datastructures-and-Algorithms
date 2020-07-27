@@ -24,6 +24,9 @@
 
 # Topics 
 - [Recursion](#recursion)
+- [Short description of sorting algorithms](#sorting-algorithms)
+  - [Bubble Sort](#1-bubble-sort)
+  - [Seletion Sort](#2-selection-sort)
 - [Graphs](#big-o-graphs)
 
 &nbsp;
@@ -73,6 +76,23 @@ def sum_range(number):
 ```
 
 &nbsp;
+
+___
+
+&nbsp;
+
+# Sorting Algorithms
+## 1. Bubble Sort
+    In Bubble sort only one number is sorted after each itteration.
+    
+    We look at two numbers while looping over the array(index "i" and index "i+1")
+    We start from the beginning of the array. If value of index i > index i+1 we swap the value of the indexes.
+    We do this for each numbers in the array.
+
+## 2. Selection Sort
+    Seletion sort is similar to bubble sort. Here we look for smallest number in the array. We swap the values of smallest number index and the first index.
+
+    Note: After each swap we increment our smallest index by 1. Otherwise it will ony bring the smallest number to at index 0 everytime. and won't sort the array.
 
 ___
 
