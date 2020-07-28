@@ -28,6 +28,8 @@
   - [Bubble Sort](#1-bubble-sort)
   - [Seletion Sort](#2-selection-sort)
 - [Graphs](#big-o-graphs)
+  - [Datastructures](#big-o-for-datastructures)
+  - [Algorithms](#big-o-for-sorting-algorithms)
 
 &nbsp;
 
@@ -105,7 +107,9 @@ ___
 ## Big O is used to analyze the time and space complexity of algorithms. It's also known as asymptotic analyzation of algorithms
 
 ![Runtime compared with Big O notations.](media/images/big_O_chart.PNG)
+# Big O for Datastructures
 ![big_O_for_data_structures.PNG](media/images/big_O_for_data_structures.PNG)
+# Big O for Sorting Algorithms
 ![big_O_of_sorting_algorithms.PNG](media/images/big_O_of_sorting_algorithms.PNG)
 
 
