@@ -27,6 +27,7 @@
 - [Short description of sorting algorithms](#sorting-algorithms)
   - [Bubble Sort](#1-bubble-sort)
   - [Seletion Sort](#2-selection-sort)
+  - [Insertion Sort](#3-insertion-sort)
 - [Graphs](#big-o-graphs)
   - [Datastructures](#big-o-for-datastructures)
   - [Algorithms](#big-o-for-sorting-algorithms)
@@ -96,8 +97,17 @@ ___
     We swap the values of smallest number index and the first index.
 
     Note: After each swap we increment our smallest index by 1.
-        Otherwise it will ony bring the smallest number to at index 0 everytime and won't sort the array.
+          Otherwise it will ony bring the smallest number to at index 0 everytime and won't sort the array.
 
+## 3. Insertion Sort
+    In Insertion sort an unsorted element gets placed in the correct place after each iteration.
+
+    We start by assuming that first number in the list/array is already sorted.
+    We start iterating from the index 1 and continue to the last index.
+    We bring the value of index in the right place by comparing the numbers before the current index(if current index is 5 we start comparing from 4 and go all the way to the beginning).
+    If the number is smaller than the number we continue exploring behind. In each step we push the values to the right so that we can insert the number in the right place.
+    If we find an number that is either smaller or equals to the current index's number we consider that index is the right place for the number.
+    We continue doing this for each element in the array. After each iteration we our target index increases by 1.
 ___
 
 &nbsp;
@@ -107,11 +117,18 @@ ___
 ## Big O is used to analyze the time and space complexity of algorithms. It's also known as asymptotic analyzation of algorithms
 
 ![Runtime compared with Big O notations.](media/images/big_O_chart.PNG)
+
+&nbsp;
+
 # Big O for Datastructures
 ![big_O_for_data_structures.PNG](media/images/big_O_for_data_structures.PNG)
+
+&nbsp;
+
 # Big O for Sorting Algorithms
 ![big_O_of_sorting_algorithms.PNG](media/images/big_O_of_sorting_algorithms.PNG)
 
+&nbsp;
 
 
 ### [Charts credit](https://www.bigocheatsheet.com/)

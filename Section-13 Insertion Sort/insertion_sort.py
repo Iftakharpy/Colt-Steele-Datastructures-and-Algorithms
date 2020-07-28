@@ -12,7 +12,7 @@ def insertion_sort(array):
         current_value = array[i]
 
         for j in range(i-1,-1,-1):
-            #pushing the values untill we find the right for the current_value
+            #pushing the larger values to the right untill we find the right for the current_value
             if array[j]>current_value:
                 array[j+1] = array[j]
             
