@@ -48,9 +48,7 @@ for i in range(tests):
     array = [random.randint(0,1000) for x in range(arr_len)]
     clone  = deepcopy(array)
     array.sort()
-    print('sorted array')
     quick_sort(clone)
-    print('sorted clone')
     print(array==clone,i)
     if array==clone:
         continue
