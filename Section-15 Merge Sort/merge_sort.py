@@ -67,7 +67,7 @@ def merge_sort(array):
     mid_index = len(array)//2
     left_slice = merge_sort(array[:mid_index]) #O(log(n))
     right_slice = merge_sort(array[mid_index:]) #O(log(n))
-    print(left_slice,right_slice)
+    # print(left_slice,right_slice)
     return merge(left_slice,right_slice) #O(n+m)
 
 

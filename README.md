@@ -28,6 +28,9 @@
   - [Bubble Sort](#1-bubble-sort)
   - [Seletion Sort](#2-selection-sort)
   - [Insertion Sort](#3-insertion-sort)
+  - [Merge Sort](#4-merge-sortdivide-and-conquer)
+  - [Quick Sort](#5-quick-sortdivide-and-conquer)
+  - [Radix Sort](#6-radix-sort)
 - [Graphs](#big-o-graphs)
   - [Datastructures](#big-o-for-datastructures)
   - [Algorithms](#big-o-for-sorting-algorithms)
@@ -108,6 +111,22 @@ ___
     If the number is smaller than the number we continue exploring behind. In each step we push the values to the right so that we can insert the number in the right place.
     If we find an number that is either smaller or equals to the current index's number we consider that index is the right place for the number.
     We continue doing this for each element in the array. After each iteration we our target index increases by 1.
+
+## 4. Merge Sort(Divide and conquer)
+    In Merge Sort we keep breaking the array in half recursively one is left half and other is right half untill we get down to the simplest form of the array.
+    Simplest form means an array with a single element or an empty array.
+    Then we start marging the left and right arrays together.
+    After merging the array we return the array the we merge the array with the next sorted half.
+    the we repeat the process.
+
+## 5. Quick Sort(Divide and conquer)
+    In Quick Sort we select a pivot. Pivot is a value which should be placed in the correct place after an iteration over an array. Pivot can be selected in many ways(randomly/first element/last element/middle element). After selecting the pivot we place the selected pivot in the correct place and return the index. Here by placing the pivot in the correct place means we put the smaller elements to the left of the pivot and larger elements to the right of the pivot.
+
+    Then we reucrisvely call the quick sort function on the left half and the right half to sort the array.
+
+# 6. Radix Sort
+    In Radix Sort we sort the nubmers without comparing the numbers to each other. We sort the number by comparing the digits of the numbers.
+
 ___
 
 &nbsp;
