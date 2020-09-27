@@ -4,3 +4,6 @@
 
 #vscode
 */.vscode/*
+
+#logs
+*/*.log
